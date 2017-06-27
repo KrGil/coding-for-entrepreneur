@@ -6,7 +6,27 @@ public class Main {
         // System.out.println("hello");
 
         // operators
-        Operators operators = new Operators();
-        operators.calculat();
+        // Operators operators = new Operators();
+        //operators.calculat();
+
+        // primitive data types
+        // PrimitiveDataTypes dataTypes = new PrimitiveDataTypes();
+        // dataTypes.explainInteger();
+        // dataTypes.explainDouble();
+        // dataTypes.castNumber();
+        // dataTypes.explainString();
+        // dataTypes.parseData();
+
+        // collection framworks
+        // CollectionFrameworks collectionFrameworks =  new CollectionFrameworks();
+        // collectionFrameworks.explainArray();
+        // collectionFrameworks.explainArrayList();
+        // collectionFrameworks.explainHashSet();
+        // collectionFrameworks.explainHashMap();
+
+        // if-statement
+        IfStatement ifStatement = new IfStatement();
+        // ifStatement.explainBoolean();
+        ifStatement.explainIfStatement();
     }
 }
