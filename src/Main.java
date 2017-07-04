@@ -59,7 +59,7 @@ public class Main {
         // System.out.println(classes1.sum());
         // System.out.println(classes1.multiply());
 
-        // SubClasses subClasses = new SubClasses(4, 2);
+        // SubClasses subClasses = new SubClasses(2,4);
         // System.out.println(subClasses.sum());
         // System.out.println(subClasses.divide());
         // System.out.println(subClasses.multiply());
@@ -74,7 +74,19 @@ public class Main {
         // accessModfiers.setA(10);
 
         // Score
-        Score score = new Score();
-        score.Grade();
+        // Score score = new Score();
+        // score.Grade();
+
+        // Calculator
+        // Calculator calculator = new Calculator();
+        // System.out.println(calculator.sum());
+        // System.out.println(calculator.substract());
+        // System.out.println(calculator.multiply());
+        // System.out.println(calculator.divide());
+
+        // Lotto
+        Lotto lotto = new Lotto();
+        lotto.toArray();
+
     }
 }

@@ -49,15 +49,19 @@ public class CollectionFrameworks {
         hashSet.add("hello");
         hashSet.add("hello");
         hashSet.add("hello");
+        hashSet.add("bye");
 
         // 중복을 허용하지 않는다
-        System.out.println(hashSet.size());
-        System.out.println(hashSet.contains("hello"));
-        System.out.println(hashSet.contains("Gil"));
+        // System.out.println(hashSet.size());
+        // System.out.println(hashSet.contains("hello"));
+        // System.out.println(hashSet.contains("Gil"));
         // System.out.println(hashSet.get("marco"));
 
         ArrayList<String> arrayList = new ArrayList<String>(hashSet);
-        System.out.println(arrayList.get(0));
+//        System.out.println(arrayList.get(i));
+        for(int i=0; i < hashSet.size(); i ++ ) {
+            System.out.println(arrayList.get(i));
+        }
     }
     public void explainHashMap() {
         HashMap<String, String> hashMap = new HashMap<>();
