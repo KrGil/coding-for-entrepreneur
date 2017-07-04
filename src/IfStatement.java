@@ -3,10 +3,10 @@
  * if
  */
 public class IfStatement {
-    public void explainBoolean() {
-        boolean isTrue = true;
-        System.out.println(isTrue);
-    }
+//    public void explainBoolean() {
+//        boolean isTrue = true;
+//        System.out.println(isTrue);
+//    }
     public void explainIfStatement() {
 //        boolean isTrue = false;
 //        if (isTrue) {

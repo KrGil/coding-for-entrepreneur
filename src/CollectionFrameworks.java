@@ -1,9 +1,10 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
 /**
- * Array
+ * Array - 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것을 "배열" 이라고 한다.
  * - ArrayList - 같은형태의 자료가 모여있는 데이터
  * HashSet
  * - HashMap - dict
@@ -12,6 +13,7 @@ public class CollectionFrameworks {
     public void explainArray() {
         int[] intArray = new int[5];
         // double[] doubleArray = new double[5];
+        // String[] strings = {};
 
         intArray[0] = 5;
         System.out.println(intArray[0]); //1
@@ -20,12 +22,12 @@ public class CollectionFrameworks {
         System.out.println(intArray[3]); //4
         System.out.println(intArray[4]); //5
 
-        String[] strArray = new String[2];
+        String[] strings = {"미국", "캐나다"};
 
-        strArray[0] = "미국";
-        strArray[1] = "캐나다";
+        for (String targetString: strings) {
+            System.out.println(targetString);
+        }
 
-        System.out.println(strArray[0]);
     }
     public void explainArrayList() {
         //<>안에  Integer를 넣을 시 정수만 들어갈 수 있다 안에 들어가는 범위를 지정해주는 역할
