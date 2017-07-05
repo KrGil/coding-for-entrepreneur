@@ -38,7 +38,7 @@ public class Lotto {
 
         for(int i = 0; i < 6; i ++ ) {
         }
-        
+
         // 출력한다
         ArrayList<Integer> arrayList = new ArrayList<>(hashSet);
         System.out.println(hashSet);
