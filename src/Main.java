@@ -75,7 +75,7 @@ public class Main {
 
         // Score
         // Score score = new Score();
-        // score.Grade();
+        // score.grade();
 
         // Calculator
         // Calculator calculator = new Calculator();

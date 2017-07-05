@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Scanner;
+
 
 
 /**
@@ -18,44 +18,29 @@ import java.util.Scanner;
 public class Lotto {
 
     public void toArray() {
-//        Scanner numReader = new Scanner(System.in);
-//        int num = numReader.nextInt();
-        HashSet<Integer> hashSet = new HashSet<>();
-        int[] lottoNumber = new int[25];
-//        int randomNum;
 
-        lottoNumber[0] =  (int) (Math.random() * ((24) + 1));
-        lottoNumber[1] =  (int) (Math.random() * ((24) + 1));
-        lottoNumber[2] =  (int) (Math.random() * ((24) + 1));
-        lottoNumber[3] =  (int) (Math.random() * ((24) + 1));
-        lottoNumber[4] =  (int) (Math.random() * ((24) + 1));
-        lottoNumber[5] =  (int) (Math.random() * ((24) + 1));
+        // random 숫자를 뽑는다
+        int lottoNumber = 1 + (int) (Math.random() * ((24) + 1));
+        int lottoNumber1 =  1 + (int) (Math.random() * ((24) + 1));
+        int lottoNumber2 =  1 + (int) (Math.random() * ((24) + 1));
+        int lottoNumber3 =  1 + (int) (Math.random() * ((24) + 1));
+        int lottoNumber4 =  1 + (int) (Math.random() * ((24) + 1));
+        int lottoNumber5 =  1 + (int) (Math.random() * ((24) + 1));
 
-        hashSet.add(lottoNumber[0]);
-        hashSet.add(lottoNumber[1]);
-        hashSet.add(lottoNumber[2]);
-        hashSet.add(lottoNumber[3]);
-        hashSet.add(lottoNumber[4]);
-        hashSet.add(lottoNumber[5]);
+        // hashSet에 넣는데 갯수가 6개가 될 때 종료한다
+        HashSet<Integer> hashSet = new HashSet<>(6);
+        hashSet.add(lottoNumber);
+        hashSet.add(lottoNumber1);
+        hashSet.add(lottoNumber2);
+        hashSet.add(lottoNumber3);
+        hashSet.add(lottoNumber4);
+        hashSet.add(lottoNumber5);
 
-        ArrayList<Integer> arrayList = new ArrayList<Integer>(hashSet);
-        for(int i=0; i < 25; i ++ ) {
-            for (int x = 0; x < i; x ++) {
-                if (lottoNumber[x] == lottoNumber[i]) {
-                    lottoNumber[0] =  (int) (Math.random() * ((24) + 1));
-                    lottoNumber[1] =  (int) (Math.random() * ((24) + 1));
-                    lottoNumber[2] =  (int) (Math.random() * ((24) + 1));
-                    lottoNumber[3] =  (int) (Math.random() * ((24) + 1));
-                    lottoNumber[4] =  (int) (Math.random() * ((24) + 1));
-                    lottoNumber[5] =  (int) (Math.random() * ((24) + 1));
-                }
-            }
+        for(int i = 0; i < 6; i ++ ) {
         }
-//        for (int i = 0; i < hashSet.size(); i ++)
-//            System.out.println(lottoNumber[i]);
-        for (Integer targetInteger: arrayList) {
-            System.out.println(targetInteger);
-        }
+        
+        // 출력한다
+        ArrayList<Integer> arrayList = new ArrayList<>(hashSet);
+        System.out.println(hashSet);
     }
 }
-// int[] hashSet = new int[6];

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="428d4189-829a-4d8d-84fd-e82ae6c285a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lotto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaSyntax/Calculator.class" afterPath="$PROJECT_DIR$/out/production/JavaSyntax/Calculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaSyntax/Main.class" afterPath="$PROJECT_DIR$/out/production/JavaSyntax/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaSyntax/Score.class" afterPath="$PROJECT_DIR$/out/production/JavaSyntax/Score.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calculator.java" afterPath="$PROJECT_DIR$/src/Calculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CollectionFrameworks.java" afterPath="$PROJECT_DIR$/src/CollectionFrameworks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lotto.java" afterPath="$PROJECT_DIR$/src/Lotto.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Score.java" afterPath="$PROJECT_DIR$/src/Score.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +20,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state relative-caret-position="239">
+              <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Score.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Score.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -35,8 +40,8 @@
       <file leaf-file-name="CollectionFrameworks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CollectionFrameworks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+            <state relative-caret-position="223">
+              <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +52,8 @@
       <file leaf-file-name="ForLoop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ForLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="446">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1246#1254#0" expanded="true" />
@@ -60,11 +65,10 @@
       <file leaf-file-name="Lotto.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lotto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="40" column="67" lean-forward="false" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+            <state relative-caret-position="370">
+              <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1272#1281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,12 +110,12 @@
         <option value="$PROJECT_DIR$/src/FavoriteFood.java" />
         <option value="$PROJECT_DIR$/src/AccessModfiers.java" />
         <option value="$PROJECT_DIR$/src/IfStatement.java" />
-        <option value="$PROJECT_DIR$/src/Score.java" />
         <option value="$PROJECT_DIR$/src/Classes.java" />
         <option value="$PROJECT_DIR$/src/Calculator.java" />
         <option value="$PROJECT_DIR$/src/ForLoop.java" />
         <option value="$PROJECT_DIR$/src/CollectionFrameworks.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Score.java" />
         <option value="$PROJECT_DIR$/src/Lotto.java" />
       </list>
     </option>
@@ -604,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -620,28 +616,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CollectionFrameworks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+        <state relative-caret-position="223">
+          <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ForLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="54" selection-end-column="9" />
+        <state relative-caret-position="446">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1246#1254#0" expanded="true" />
@@ -651,11 +655,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lotto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="40" column="67" lean-forward="false" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        <state relative-caret-position="370">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1272#1281#0" expanded="true" />
           </folding>
         </state>
       </provider>
