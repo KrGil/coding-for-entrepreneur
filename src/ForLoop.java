@@ -61,6 +61,7 @@ public class ForLoop {
         // testInt++;
         String[] strings = {"hello", "this", "is", "Gil"};
 
+
         while (testInt < strings.length) {
             System.out.println(strings[testInt]);
             testInt++;

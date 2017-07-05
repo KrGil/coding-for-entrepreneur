@@ -20,27 +20,20 @@ public class Lotto {
     public void toArray() {
 
         // random 숫자를 뽑는다
-        int lottoNumber = 1 + (int) (Math.random() * ((24) + 1));
-        int lottoNumber1 =  1 + (int) (Math.random() * ((24) + 1));
-        int lottoNumber2 =  1 + (int) (Math.random() * ((24) + 1));
-        int lottoNumber3 =  1 + (int) (Math.random() * ((24) + 1));
-        int lottoNumber4 =  1 + (int) (Math.random() * ((24) + 1));
-        int lottoNumber5 =  1 + (int) (Math.random() * ((24) + 1));
+        int lottoNumber0 = 0; {
+//            lottoNumber0 = 1 + (int) (Math.random() * ((24) + 1));
+        }
+        Integer[] strings = {1,2,3,4,5,6};
 
         // hashSet에 넣는데 갯수가 6개가 될 때 종료한다
-        HashSet<Integer> hashSet = new HashSet<>(6);
-        hashSet.add(lottoNumber);
-        hashSet.add(lottoNumber1);
-        hashSet.add(lottoNumber2);
-        hashSet.add(lottoNumber3);
-        hashSet.add(lottoNumber4);
-        hashSet.add(lottoNumber5);
 
-        for(int i = 0; i < 6; i ++ ) {
-        }
+        HashSet<Integer> hashSet = new HashSet<>(6);
+        hashSet.add(lottoNumber0);
 
         // 출력한다
-        ArrayList<Integer> arrayList = new ArrayList<>(hashSet);
-        System.out.println(hashSet);
+        while (lottoNumber0 < strings.length) {
+            System.out.println(strings[lottoNumber0]);
+        }
+//
     }
 }

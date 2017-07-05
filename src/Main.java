@@ -85,11 +85,11 @@ public class Main {
         // System.out.println(calculator.divide());
 
         // Lotto
-        // Lotto lotto = new Lotto();
-        // lotto.toArray();
+         Lotto lotto = new Lotto();
+         lotto.toArray();
 
         // Diamond
-        Diamond diamond = new Diamond();
-        diamond.diamond();
+        // Diamond diamond = new Diamond();
+        // diamond.diamond();
     }
 }
