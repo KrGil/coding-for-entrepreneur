@@ -18,22 +18,16 @@ import java.util.HashSet;
 public class Lotto {
 
     public void toArray() {
+        // 1. hash set을 하나 만든다. initialCapacity는 넣어줄 필요 없어요
+        HashSet<Integer> hashSet = new HashSet<>();
 
-        // random 숫자를 뽑는다
-        int lottoNumber0 = 0; {
-//            lottoNumber0 = 1 + (int) (Math.random() * ((24) + 1));
+        // 2. hashSet의 전체 갯수가 6일 때만 작동하는 while 문을 만든다
+        while (hashSet.size() == 6) {
+            // 3. while문 안에서 난수를 만들어서 hashSet 안에 집어넣는다
+            int randomNum = 1 + (int) (Math.random() * ((24) + 1));
+            hashSet.add(randomNum);
+            // 4. hashSet 안의 값을 출력한다
+            System.out.println(hashSet.size());
         }
-        Integer[] strings = {1,2,3,4,5,6};
-
-        // hashSet에 넣는데 갯수가 6개가 될 때 종료한다
-
-        HashSet<Integer> hashSet = new HashSet<>(6);
-        hashSet.add(lottoNumber0);
-
-        // 출력한다
-        while (lottoNumber0 < strings.length) {
-            System.out.println(strings[lottoNumber0]);
-        }
-//
     }
 }
